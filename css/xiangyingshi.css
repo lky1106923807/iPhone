@@ -1,0 +1,657 @@
+@import url("base.css");
+.nav-top{
+	width: 100%;
+	height: 40px;
+	background: #444444;
+}
+.nav-TOP{
+	height: 100%;
+	/*background: red;*/
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-end;
+}
+.nav-TOP div{
+	font-size: 12px;
+	color: #a8a8aa;
+	line-height: 40px;
+}
+nav{
+	width: 100%;
+	height: 44px;
+	background: #323232;
+}
+nav ul{
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+nav ul li{
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 44px;
+}
+.min-nav ul li:first-child{
+	font-size: 30px;
+	line-height: 44px;
+}
+.main li{
+	background: #F9F0EB;
+	border-bottom: 16px solid #FFFFFF;
+}
+.main li a{
+	display: block;
+	width: 100%;
+	height: 580px;
+	overflow: hidden;
+	position: relative;
+}
+.main li a h2{
+	text-align: center;
+	color: #000000;
+	margin-top: 47px;
+}
+.main li a h3{
+	text-align: center;
+	color: #000000;
+}
+.main li a div{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0;	
+}
+.main .iphone-x{
+	background: #FAFAFA;
+}
+.main .iphone-x a div{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 100px;
+}
+.chanpingduo{
+	display: flex;
+	flex-wrap: wrap;
+}
+.chanpingduo li{
+	background: #FAFAFA;
+	box-sizing: border-box;
+	width: 50%;
+	border-left: 12px solid #FFFFFF;
+	border-bottom: 12px solid #FFFFFF;
+	overflow: hidden;
+	position: relative;
+}
+.chanpingduo li:nth-child(2n){
+	border-right: 12px solid #FFFFFF;
+}
+.chanpingduo li h4{
+	color: #111;
+}
+.chanpingduo li p{
+	color: #333;
+}
+.chanpingduo li div{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dibu{
+	width: 100%;
+	background: #f2f2f2;
+	overflow: hidden;
+}
+.dibu-top{
+	margin-top: 50px;
+	display: flex;
+}
+.dibu-top li{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.dibu-top li span{
+	font-size: 10px;
+	color: #555555;
+	margin-bottom: 6px;
+}
+.dibu-top li a{
+	font-size: 10px;
+	color: #555555;
+	margin-bottom: 6px;
+}
+.dibu-top li a:hover{
+	text-decoration:underline;
+}
+.dibu-top li span:first-child{
+	font-weight: bold;
+	font-size: 12px;
+	color: #333333;
+}
+.dibu-top li:nth-child(3) span:nth-child(4){
+	font-weight: bold;
+	font-size: 12px;
+	color: #333333;
+	margin-top: 20px;
+}
+.dibu-top li:nth-child(4) span:nth-child(5){
+	font-weight: bold;
+	font-size: 12px;
+	color: #333333;
+	margin-top: 20px;
+}
+.dibu-TOP{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.dibu-TOP li{
+	height: 49px;
+	overflow: hidden;
+	padding-right: 12px;
+	border-bottom: 1px solid #d6d6d6;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.dibu-TOP li span{
+	display: block;
+	font-size: 12px;
+	color: #333333;
+	font-weight: bold;
+}
+.dibu-bottom{
+	/*height: 52px;*/
+	padding-top:34px;
+	margin: 0 auto;
+}
+.dibu-bottom-s{
+	height: 16px;
+	padding-bottom: 6px;
+	margin-bottom: 7px;
+	border-bottom: 1px solid #d6d6d6;
+}
+.dibu-bottom-s{
+	font-size: 10px;
+	color: #888;
+}
+.dibu-bottom-s span a{
+	font-size: 10px;
+	color:#0070c9 ;
+}
+.dibu-bottom-z-z{
+	float: left;
+	font-size: 0;
+}
+.dibu-bottom-z-z span{
+	font-size: 10px;
+	margin-right: 30px;
+    float: left;
+    margin-top: 3px;
+    color: #888888;
+}
+.dibu-bottom-z-z a{
+	float: left;
+	display: block;
+	font-size: 10px;
+	color: #555555;
+	border-right: 1px solid #d6d6d6;
+    margin-right: 10px;
+    padding-right: 12px;
+	font-size: 10px;
+	margin-top: 3px;
+}
+.dibu-bottom-z-z a:last-of-type{
+	border-right: 0;
+}
+.dibu-bottom-z-z a:hover{
+	text-decoration:underline;
+}
+.dibu-bottom-z-y{
+	float: right;
+	margin-top: 3px;
+}
+.dibu-bottom-z-y a{
+	font-size: 10px;
+	color: #888888;
+	float: right;
+}
+.dibu-bottom-z-y a img{
+	padding-right: 5px;
+	float: left;
+}
+.dibu-bottom-x{
+	float: left;
+	width: 980px;
+	font-size: 10px;
+	margin-top: 6px;
+	margin-bottom: 20px;
+	margin-bottom: 20px;
+    color: #888;
+}
+.dibu-bottom-x a{
+	font-size: 10px;
+	color: #888;
+}
+.dibu-bottom-x a:hover{
+	text-decoration:underline;
+}
+.dibu-BOTTOM{
+	padding: 0 20px;
+	padding-top: 17px;
+	padding-bottom: 19px;
+}
+.dibu-BOTTOM .dibu-bottom-s{
+	border-bottom: none;
+}
+.dibu-BOTTOM .dibu-bottom-z-y{
+	margin-top: 20px;
+	width: 100%;
+}
+.dibu-BOTTOM .dibu-bottom-z-y a{
+	float: left;
+}
+/*屏幕尺寸大于1024*/
+@media screen and (min-width:1024px ) {
+	.nav-TOP{
+		width: 976px;
+	}
+	.max-nav{
+		display: block;
+	}
+	.min-nav{
+		display: none;
+	}
+	.max-nav ul{
+		width: 976px;
+	}
+	.main li a{
+		width: 100%;
+		height: 580px;
+	}
+	.main li a h2{
+		font-size: 56px;
+	}
+	.main li a h3{
+		font-size: 27px;
+	}
+	.main li a div{
+		width: 561px;
+		height: 395px;
+		background: url(../img/iphone_8_da.jpg) no-repeat center;
+	}
+	.main .iphone-x a div{
+		width: 909px;
+		height: 194px;
+		background: url(../img/iphone_x_large.jpg) no-repeat center;
+	}
+	.chanpingduo li{
+		height: 580px;
+	}
+	.chanpingduo li h4{
+		font-size: 40px;
+		line-height: 1.1;
+		text-align: center;
+		margin-top: 52px;
+	}
+	.chanpingduo li p{
+		font-size: 21px;
+		line-height: 1.5;
+		text-align: center;
+		margin-top: 4px;
+	}
+	.chanpingduo li div{
+		width: 491px;
+		height: 344px;
+		background: url(../img/holiday_large.png);
+		bottom: 33px;
+	}
+	.chanpingduo li:nth-child(2) h4{
+		display: block;
+		width: 100%;
+		text-align: center;
+		position: absolute;
+		z-index: 2;
+		margin-top: 0;
+		top: 52px;
+	}
+	.chanpingduo li:nth-child(2) p{
+		display: block;
+		width: 100%;
+		text-align: center;
+		position: absolute;
+		z-index: 2;
+		margin-top: 0;
+		top: 92px;
+	}
+	.chanpingduo li:nth-child(2) div{
+		width: 1262px;
+		height: 580px;
+		background: url(../img/trade_up_large.jpg) no-repeat center;
+		left: calc(50% - 631px);
+		top: calc(50% - 290px);
+	}
+	.chanpingduo li:nth-child(3) img{
+		display: block;
+		width:142px ;
+		height: 52px;
+		background: url(../img/watch_series_3_promo_large.png) no-repeat center;
+		margin: 0 auto;
+		margin-top: 56px;
+	}
+	.chanpingduo li:nth-child(3) div{
+		width: 586px;
+		height: 274px;
+		background: url(../img/watch_series_3_large.jpg);
+		bottom: 104px;
+	}
+	.chanpingduo li:nth-child(4) div{
+		width: 510px;
+		height: 146px;
+		background: url(../img/ipad_pro_large.jpg);
+		bottom: 154px;
+	}
+	.chanpingduo li:nth-child(5) div{
+		width: 251px;
+		height: 420px;
+		background: url(../img/macbook_large.jpg);
+		bottom: 0;
+	}
+	.chanpingduo li:nth-child(6) div{
+		width: 385px;
+		height: 304px;
+		background: url(../img/airpods_large.jpg);
+		bottom: 75px;
+	}
+	.dibu-top{
+		width: 980px;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	.dibu-TOP{
+		display: none;
+	}
+	.dibu-bottom{
+		width: 980px;
+	}
+	.dibu-bottom-s{
+		width: 980px;
+	}
+	.dibu-bottom-x{
+		width: 980px;
+	}
+	.dibu-BOTTOM{
+		display: none;
+	}
+}
+
+
+/*屏幕尺寸在768-1024之间*/
+@media screen and (min-width:768px ) and (max-width:1024px) {
+	.nav-TOP{
+		padding: 0 16px;
+	}
+	.max-nav{
+		display: block;
+	}
+	.min-nav{
+		display: none;
+	}
+	.max-nav ul{
+		padding: 0 16px;
+	}
+	.main li a{
+		width: 100%;
+		height: 580px;
+	}
+	.main li a h2{
+		font-size: 44px;
+	}
+	.main li a h3{
+		font-size: 24px;
+	}
+	.main li a div{
+		width: 549px;
+		height: 388px;
+		background: url(../img/iphone_8_zhong.jpg) no-repeat center;
+	}
+	.main .iphone-x a div{
+		width: 704px;
+		height: 148px;
+		background: url(../img/iphone_x_medium.jpg) no-repeat center;
+	}
+	.chanpingduo li{
+		height: 508px;
+	}
+	.chanpingduo li h4{
+		font-size: 32px;
+		line-height: 1.1;
+		text-align: center;
+		margin-top: 42px;
+	}
+	.chanpingduo li p{
+		font-size: 19px;
+		line-height: 1.5;
+		text-align: center;
+		margin-top: 3px;
+	}
+	.chanpingduo li div{
+		width: 336px;
+		height: 236px;
+		background: url(../img/holiday_medium.png);
+		bottom: 57px;
+	}
+	.chanpingduo li:nth-child(2) h4{
+		display: block;
+		width: 100%;
+		text-align: center;
+		position: absolute;
+		z-index: 2;
+		margin-top: 0;
+		top: 42px;
+	}
+	.chanpingduo li:nth-child(2) p{
+		display: block;
+		width: 100%;
+		text-align: center;
+		position: absolute;
+		z-index: 2;
+		margin-top: 0;
+		top: 77px;
+	}
+	.chanpingduo li:nth-child(2) div{
+		width: 516px;
+		height: 490px;
+		background: url(../img/trade_up_medium.jpg) no-repeat center;
+		left: calc(50% - 258px);
+		top: calc(50% - 245px);
+	}
+	.chanpingduo li:nth-child(3) img{
+		display: block;
+		width:117px ;
+		height: 44px;
+		background: url(../img/watch_series_3_promo_medium.png) no-repeat center;
+		margin: 0 auto;
+		margin-top: 45px;
+	}
+	.chanpingduo li:nth-child(3) div{
+		width: 288px;
+		height: 322px;
+		background: url(../img/watch_series_3_medium.jpg);
+		bottom: 24px;
+	}
+	.chanpingduo li:nth-child(4) div{
+		width: 318px;
+		height: 91px;
+		background: url(../img/ipad_pro_medium.jpg);
+		bottom: 137px;
+	}
+	.chanpingduo li:nth-child(5) div{
+		width: 199px;
+		height: 348px;
+		background: url(../img/macbook_medium.jpg);
+		bottom: 0;
+	}
+	.chanpingduo li:nth-child(6) div{
+		width: 269px;
+		height: 212px;
+		background: url(../img/airpods_medium.jpg);
+		bottom: 87px;
+	}
+	.dibu-top{
+		padding:0 28px;
+	}
+	.dibu-TOP{
+		display: none;
+	}
+	.dibu-bottom{
+		padding:0 28px;
+	}
+	.dibu-BOTTOM{
+		display: none;
+	}
+}
+
+
+/*屏幕尺寸小于768*/
+@media screen and (max-width: 768px) {
+	.nav-TOP{
+		padding: 0 16px;
+	}
+	.max-nav{
+		display: none;
+	}
+	.min-nav{
+		display: block;
+	}
+	.min-nav ul{
+		padding: 0 16px;
+	}
+	.main li a{
+		width: 100%;
+		height: 500px;
+	}
+	.main li a h2{
+		font-size: 32px;
+	}
+	.main li a h3{
+		font-size: 19px;
+	}
+	.main li a div{
+		width: 267px;
+		height: 357px;
+		background: url(../img/iphone_8_xiao.jpg) no-repeat center;
+	}
+	.main .iphone-x a div{
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+		bottom: 47px;
+		width: 167px;
+		height: 333px;
+		background: url(../img/iphone_x_small.jpg) no-repeat center;
+	}
+	.chanpingduo li{
+		width: 100%;
+		height: 500px;
+		border-left:none;
+	}
+	.chanpingduo li:nth-child(2n){
+		border-right:none;
+	}
+	.chanpingduo li h4{
+		font-size: 32px;
+		line-height: 1.1;
+		text-align: center;
+		margin-top: 37px;
+	}
+	.chanpingduo li p{
+		font-size: 19px;
+		line-height: 1.5;
+		text-align: center;
+		margin-top: 3px;
+	}
+	.chanpingduo li div{
+		width: 314px;
+		height: 219px;
+		background: url(../img/holiday_small.png);
+		bottom: 73px;
+	}
+	.chanpingduo li:nth-child(3) img{
+		display: block;
+		width:117px ;
+		height: 42px;
+		background: url(../img/watch_series_3_promo_small.png) no-repeat center;
+		margin: 0 auto;
+		margin-top: 43px;
+	}
+	.chanpingduo li:nth-child(3) div{
+		width: 291px;
+		height: 326px;
+		background: url(../img/watch_series_3_small.jpg);
+		bottom: 31px;
+	}
+	.chanpingduo li:nth-child(4) div{
+		width: 299px;
+		height: 86px;
+		background: url(../img/ipad_pro_small.jpg);
+		bottom: 146px;
+	}
+	.chanpingduo li:nth-child(5) div{
+		width: 206px;
+		height: 364px;
+		background: url(../img/macbook_small.jpg);
+		bottom: 0;
+	}
+	.chanpingduo li:nth-child(6) div{
+		width: 244px;
+		height: 193px;
+		background: url(../img/airpods_small.jpg);
+		bottom: 104px;
+	}
+	.chanpingduo li:nth-child(2) h4{
+		display: block;
+		width: 100%;
+		text-align: center;
+		position: absolute;
+		z-index: 2;
+		margin-top: 0;
+		top: 32px;
+	}
+	.chanpingduo li:nth-child(2) p{
+		display: block;
+		width: 100%;
+		text-align: center;
+		position: absolute;
+		z-index: 2;
+		margin-top: 0;
+		top: 72px;
+	}
+	.chanpingduo li:nth-child(2) div{
+		width: 730px;
+		height: 500px;
+		background: url(../img/trade_up_small.jpg) no-repeat center;
+		left: calc(50% - 365px);
+		top: calc(50% - 250px);
+	}
+	.dibu-top{
+		display: none;
+	}
+	.dibu-TOP{
+		display: block;
+	}
+	.dibu-bottom{
+		display: none;
+	}
+}
